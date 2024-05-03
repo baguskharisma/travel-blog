@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog-Details</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="/frontend/libraries/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/details.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Abril+Fatface"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Yesteryear"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-brand">
+          <img src="/frontend/images/Waikiki.png" alt="logo waikiki" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-lg-3">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a href="/tours.html" class="nav-link active">Tours</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a href="#" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item ml-lg-3">
+              <a href="#" class="btn btn-sign-up">Sign Up </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container details">
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col-12 col-md-6">
+          <img src="frontend/images/kawah biru.png" class="w-100" alt="" />
+          <p class="c-destination mx-3 mx-md-0">Kawah Biru</p>
+          <hr />
+          <p class="n-destination mx-3 mx-md-0">Kampar, Siak Hulu</p>
+          <p class="description mx-3 mx-md-0">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            optio, ullam ducimus adipisci ad porro quo praesentium
+            necessitatibus reprehenderit.
+          </p>
+        </div>
+        <div class="col-12 col-md-6">
+          <p class="others mx-3 mx-md-0">Kuliner dan lainnya</p>
+          <div class="position-relative h-100 desktop">
+            <div class="col-12 col-md-6 position-absolute top-0 end-0">
+              <img
+                src="frontend/images/rumah makan.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+            <div
+              class="col-12 col-md-6 position-absolute top-50 start-0 translate-middle-y"
+            >
+              <img src="frontend/images/hotel.png" style="width: 100%" alt="" />
+            </div>
+            <div class="col-12 col-md-6 position-absolute bottom-0 end-0">
+              <img
+                src="frontend//images/sunset.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="position-relative h-100 mobile">
+            <div class="col-12 col-md-6">
+              <img
+                src="frontend/images/rumah makan.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+            <div class="col-12 col-md-6">
+              <img src="frontend/images/hotel.png" style="width: 100%" alt="" />
+            </div>
+            <div class="col-12 col-md-6">
+              <img
+                src="frontend//images/sunset.png"
+                style="width: 100%"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="footer d-flex flex-wrap container-fluid justify-content-between align-items-lg-center py-2 py-lg-3"
+    >
+      <div class="col-12 col-lg-6 text-center text-lg-center">
+        Copyright © 2023 Welly Putra
+      </div>
+
+      <ul class="nav col-6 justify-content-lg-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Tours</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container-fluid navbar-mobile fixed-bottom">
+      <div class="row row-cols-5 py-3 h-100">
+        <a
+          class="col d-flex flex-column justify-content-center align-items-center active"
+          href="index.html"
+        >
+          <i class="fa-solid fa-house fa-lg" style="color: #a9a9a9"></i>
+          <p class="mt-2">Home</p>
+        </a>
+        <a
+          class="col d-flex flex-column align-items-center justify-content-center"
+          href="tours.html"
+        >
+          <i class="fa-solid fa-earth fa-lg active" style="color: #a9a9a9"></i>
+          <p class="mt-2">Tour</p>
+        </a>
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <i class="fa-solid fa-comments fa-lg" style="color: #a9a9a9"></i>
+          <p class="mt-2">Reviews</p>
+        </div>
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <i
+            class="fa-sharp fa-solid fa-circle-info fa-lg"
+            style="color: #a9a9a9"
+          ></i>
+          <p class="mt-2 text">About</p>
+        </div>
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <i class="fa-solid fa-user fa-lg" style="color: #a9a9a9"></i>
+          <p class="mt-2">Sign Up</p>
+        </div>
+      </div>
+    </div>
+    <script src="/frontend/libraries/jquery/jquery-3.6.4.min.js"></script>
+    <script src="/frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/frontend/scripts/navbar-scroll.js"></script>
+  </body>
+</html>

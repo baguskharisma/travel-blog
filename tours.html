@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Blog-Tours</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="/frontend/libraries/bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/tours.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//fonts.googleapis.com/css?family=Abril+Fatface"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Work Sans"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Yesteryear"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#" class="navbar-brand">
+          <img src="/frontend/images/Waikiki.png" alt="logo waikiki" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-lg-3">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a href="/tours.html" class="nav-link active">Tours</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a href="#" class="nav-link">Reviews</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a href="#" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item ml-lg-3">
+              <a href="#" class="btn btn-sign-up">Sign Up </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <header class="banner h-100">
+      <div class="container text-center text-lg-start">
+        <h1>Destinasi</h1>
+        <div class="search-form-mobile">
+          <input
+            type="text"
+            class="form-control form-input"
+            placeholder="Search by location"
+          />
+          <i class="fa fa-search"></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="container list-destinasi">
+      <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-between">
+        <div class="col"><h1>Destinasi Populer</h1></div>
+        <div class="col-sm col-md-3">
+          <div class="form">
+            <i class="fa fa-search"></i>
+            <input
+              type="text"
+              class="form-control form-input"
+              placeholder="Search by location"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="destination row row-cols-1 row-cols-md-3 text-center text-md-start"
+      >
+        <div class="col">
+          <img src="/frontend/images/maldives.png" alt="" />
+          <p class="c-destination">Maldives</p>
+          <hr />
+          <p class="n-destination">Sunny Ari Atoll</p>
+          <p class="price">Rp 8.500.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/england.png" alt="" />
+          <p class="c-destination">England</p>
+          <hr />
+          <p class="n-destination">Majestic</p>
+          <p class="price">Rp 24.525.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/italy.png" alt="" />
+          <p class="c-destination">Italy</p>
+          <hr />
+          <p class="n-destination">Discover Venice</p>
+          <p class="price">Rp 23.250.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/turkey.png" alt="" />
+          <p class="c-destination">Turkey</p>
+          <hr />
+          <p class="n-destination">Historical Istanbul</p>
+          <p class="price">Rp 18.750.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/france.png" alt="" />
+          <p class="c-destination">France</p>
+          <hr />
+          <p class="n-destination">Amazing Eiffel Tower</p>
+          <p class="price">Rp 35.250.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/switzerland.png" alt="" />
+          <p class="c-destination">Switzerland</p>
+          <hr />
+          <p class="n-destination">Faithful Swiss Alps</p>
+          <p class="price">Rp 21.375.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/italy.png" alt="" />
+          <p class="c-destination">Spain</p>
+          <hr />
+          <p class="n-destination">Elegant Madrid</p>
+          <p class="price">Rp 21.375.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/denmark.png" alt="" />
+          <p class="c-destination">Denmark</p>
+          <hr />
+          <p class="n-destination">Copenhagen</p>
+          <p class="price">Rp 20.250.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <img src="/frontend/images/brazil.png" alt="" />
+          <p class="c-destination">Brasil</p>
+          <hr />
+          <p class="n-destination">Rio de Janeiro</p>
+          <p class="price">Rp 32.250.000</p>
+          <p class="description">
+            Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor.
+          </p>
+          <a href="#" class="btn btn-view-details px-4 mt-3"
+            >LIHAT SEMUA
+            <img src="/frontend/images/arrow-icon.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="footer d-flex flex-wrap container-fluid justify-content-between align-items-lg-center py-2 py-lg-3"
+    >
+      <div class="col-12 col-lg-6 text-center text-lg-center">
+        Copyright © 2023 Bagus Kharisma
+      </div>
+
+      <ul class="nav col-6 justify-content-lg-end">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Tours</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="container-fluid navbar-mobile fixed-bottom">
+      <div class="row row-cols-5 py-3 h-100">
+        <a
+          class="col d-flex flex-column justify-content-center align-items-center active"
+          href="index.html"
+        >
+          <i class="fa-solid fa-house fa-lg" style="color: #a9a9a9"></i>
+          <p class="mt-2">Home</p>
+        </a>
+        <a
+          class="col d-flex flex-column align-items-center justify-content-center"
+          href="tours.html"
+        >
+          <i class="fa-solid fa-earth fa-lg active" style="color: #a9a9a9"></i>
+          <p class="mt-2">Tour</p>
+        </a>
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <i class="fa-solid fa-comments fa-lg" style="color: #a9a9a9"></i>
+          <p class="mt-2">Reviews</p>
+        </div>
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <i
+            class="fa-sharp fa-solid fa-circle-info fa-lg"
+            style="color: #a9a9a9"
+          ></i>
+          <p class="mt-2 text">About</p>
+        </div>
+        <div
+          class="col d-flex flex-column align-items-center justify-content-center"
+        >
+          <i class="fa-solid fa-user fa-lg" style="color: #a9a9a9"></i>
+          <p class="mt-2">Sign Up</p>
+        </div>
+      </div>
+    </div>
+    <script src="/frontend/libraries/jquery/jquery-3.6.4.min.js"></script>
+    <script src="/frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/frontend/scripts/navbar-scroll.js"></script>
+  </body>
+</html>

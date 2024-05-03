@@ -1,0 +1,157 @@
+.navigation {
+  background-color: #48a9a6;
+}
+
+.nav-item {
+  .nav-link {
+    color: white;
+    font-family: "Work Sans";
+    font-weight: 600;
+    height: 35px;
+  }
+  .active {
+    border-bottom: 2px solid #ffff;
+  }
+  .btn-sign-up {
+    background-color: #48a9a6;
+    padding: 5px;
+    color: white;
+    width: 120px;
+    border-radius: 2px;
+    font-family: "Work Sans";
+    font-weight: 600;
+  }
+  .btn-sign-up:hover {
+    background-color: rgba(72, 169, 166, 0.7);
+    color: white;
+  }
+}
+
+.details {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  padding: 0;
+
+  .c-destination {
+    font-family: "Yesteryear", sans-serif;
+    font-size: 40px;
+    margin-top: 30px;
+  }
+
+  .n-destination {
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 28px;
+  }
+
+  hr {
+    width: 15%;
+    margin-top: -15px;
+  }
+
+  .description {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+  }
+
+  .others {
+    font-family: "Abril Fatface", sans-serif;
+    font-size: 28px;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+// .navbar-fixed-top.scrolled {
+//   background-color: white !important;
+//   border-bottom: 1px solid rgb(219, 219, 219);
+//   transition: background-color 200ms linear;
+
+//   .nav-link {
+//     color: #48a9a6 !important;
+//     transition: color 200ms linear;
+//   }
+
+//   .desktop {
+//     display: none;
+//     transition: display 200ms linear;
+//   }
+
+//   .mobile {
+//     display: block;
+//     transition: display 200ms linear;
+//   }
+// }
+
+.footer {
+  margin-top: 100px;
+  background-color: #424242;
+  color: white;
+  font-family: "Work Sans";
+
+  .container > .nav > .nav-item > .nav-link {
+    font-family: "Work Sans";
+    color: white;
+    font-weight: 500;
+  }
+}
+.navbar-mobile {
+  display: none;
+}
+
+// Tablet View
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    display: none;
+  }
+
+  .footer {
+    .col-12 {
+      font-size: 12px;
+    }
+    .nav {
+      display: none;
+    }
+
+    margin-bottom: 45px;
+  }
+
+  .navbar-mobile {
+    display: block;
+    background-color: white;
+    border-top: 1px solid rgb(219, 219, 219);
+    height: 45px;
+
+    .col {
+      text-decoration: none;
+    }
+
+    .col > p {
+      font-family: "Work Sans";
+      font-size: 10px;
+      color: #a9a9a9;
+    }
+  }
+}
+// Mobile View
+
+@media only screen and (max-width: 600px) {
+  .details {
+    margin-top: 0px;
+    margin-bottom: -100px;
+
+    .desktop {
+      display: none;
+    }
+
+    .mobile {
+      display: block;
+    }
+  }
+}
